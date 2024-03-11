@@ -1,13 +1,12 @@
-import css from './App.module.css';
-import Sidebar from "./components/Sidebar";
+import "./App.css";
+import HooksCounter from "./components/HooksCounter.js";
+import ClassCounter from "./components/ClassCounter";
 
 function App() {
-  return (
-    <div className={css.App}>
-      {/* Add your components here */}
-      <Sidebar />
-    </div>
-  );
+  return <div className="App">
+      <HooksCounter />
+      <ClassCounter />
+    </div>;
 }
 
 export default App;
