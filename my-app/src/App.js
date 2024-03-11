@@ -1,12 +1,10 @@
 import "./App.css";
-import HooksCounter from "./components/HooksCounter.js";
-import ClassCounter from "./components/ClassCounter";
+import ControlledFormHooks from "./components/ControlledFormHooks";
 
 function App() {
   return <div className="App">
-      <HooksCounter />
-      <ClassCounter />
-    </div>;
+      <ControlledFormHooks />
+  </div>;
 }
 
 export default App;
