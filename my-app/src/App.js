@@ -3,7 +3,7 @@ import ClassCounter from "./components/ClassCounter";
 import HooksCounter from "./components/HooksCounter";
 import ControlledFormHooks from "./components/ControlledFormHooks";
 import UseStateWithArrays from "./components/UseStateWithArrays";
-import UseEffectCounter from "./components/UseEffectCounter";
+import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <HooksCounter/>
       <ControlledFormHooks />
       <UseStateWithArrays/>
-      <UseEffectCounter/>
+      <UseEffectCounterContainer/>
       
   </div>;
 }
